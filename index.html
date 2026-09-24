@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimante | Custom Packaging Manufacturing & Box Architecture</title>
+  <meta name="description" content="Dimante produces custom corrugated mailers, luxury rigid setup boxes, precision partition cartons, and experiential unboxing packaging. Built with heavy paperboard and zero nonsense.">
+
+  <!-- Google Fonts: Lato (Sans), Lora (Editorial Serif), Sedgwick Ave Display (Graffiti) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- Lottie Web Player -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+<body class="body">
+
+  <!-- HEADER & FLOATING DOUBLE-BEZEL NAV PILL -->
+  <header class="header">
+    <a href="#hero-section" class="dimante-logo" aria-label="Dimante Logo">
+      <span class="logo-letter" style="--i:0; --y:8px; --rot:-8deg;">D</span>
+      <span class="logo-letter" style="--i:1; --y:5px; --rot:-5deg;">I</span>
+      <span class="logo-letter" style="--i:2; --y:1px; --rot:-2deg;">M</span>
+      <span class="logo-letter" style="--i:3; --y:-4px; --rot:2deg;">A</span>
+      <span class="logo-letter" style="--i:4; --y:-7px; --rot:6deg;">N</span>
+      <span class="logo-letter" style="--i:5; --y:-4px; --rot:8deg;">T</span>
+      <span class="logo-letter" style="--i:6; --y:1px; --rot:4deg;">E</span>
+    </a>
+
+    <!-- Floating Nav Pill -->
+    <nav class="floating-nav-pill" aria-label="Primary Navigation">
+      <ul class="nav-links">
+        <li><a href="#skills-section" class="nav-link">Process</a></li>
+        <li><a href="#catalog-section" class="nav-link">Box Architectures</a></li>
+        <li><a href="#materials-section" class="nav-link">Specs</a></li>
+        <li><a href="#industries-section" class="nav-link">Industries</a></li>
+        <li><a href="#configurator-section" class="nav-link">Configurator</a></li>
+      </ul>
+      <a href="#configurator-section" class="nav-cta-pill">
+        <span>Instant Quote</span>
+        <span class="nav-cta-arrow">→</span>
+      </a>
+    </nav>
+  </header>
+
+  <!-- 1. HERO SECTION: T-REX SCROLL-SCRUBBED ANIMATION -->
+  <section id="hero-section" class="hero-section">
+    <div class="hero-wrapper">
+      <div class="t-rex-container">
+        <div id="lottie-hero-trex" class="t-rex-animation-large-screens"></div>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll to animate</span>
+        <div class="scroll-arrow">↓</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SKILLS SECTION: HORIZONTAL SCROLLING GRAFFITI TRAIN -->
+  <section id="skills-section" class="skills-section">
+    <div class="experience-intro-and-train-wrapper">
+      <!-- Section Intro Header -->
+      <div class="skills-intro-header">
+        <div class="ink-tag-badge">THE 10-STAGE MANUFACTURE PIPELINE</div>
+        <h2 class="skills-intro-headline">The SY Express Production Line</h2>
+        <p class="skills-intro-desc">From raw board intake to precision die-cut folds and warehouse dispatch. Zero bottlenecks.</p>
+      </div>
+
+      <!-- Horizontal scrolling train conveyor -->
+      <div id="skills-train" class="skills-train-wrapper">
+        <img src="train_cab.svg" alt="Train cab engine - SY Express" class="train-cab" title="SY Express Engine - Locomotive">
+        <img src="carriage_1.svg" alt="1. Inquiry carriage" class="train-box-coach" title="Phase 1: Inquiry & Packaging Brief">
+        <img src="carriage_2.svg" alt="2. Requirements carriage" class="train-coal-coach" title="Phase 2: Technical Specifications & Sizing">
+        <img src="carriage_3.svg" alt="3. Quote carriage" class="train-tank-coach" title="Phase 3: Tiered Volume Quotation">
+        <img src="carriage_4.svg" alt="4. Confirmation carriage" class="train-box-coach" title="Phase 4: Milestone Lock-in & Production Order">
+        <img src="carriage_5.svg" alt="5. Design carriage" class="train-coal-coach" title="Phase 5: 3D CAD Dielines & CMYK Pre-Flight">
+        <img src="carriage_6.svg" alt="6. Sourcing carriage" class="train-tank-coach" title="Phase 6: FSC-Certified Virgin & Recycled Kraft">
+        <img src="carriage_7.svg" alt="7. Production carriage" class="train-box-coach" title="Phase 7: High-Speed Litho Offset & Rotary Die-Cut">
+        <img src="carriage_8.svg" alt="8. Inspection carriage" class="train-coal-coach" title="Phase 8: 100% Burst Tolerance & Drop-Test QA">
+        <img src="carriage_9.svg" alt="9. Packaging carriage" class="train-tank-coach" title="Phase 9: Weather-Wrapped Palletization">
+        <img src="carriage_10.svg" alt="10. Delivery carriage" class="train-box-coach" title="Phase 10: Tracked Freight & Direct 3PL Dispatch">
+        
+        <!-- Animated Rex in crate at the end of the train -->
+        <div id="lottie-rex-box" class="train-rex-box" title="Rex Quality Assured"></div>
+      </div>
+
+      <!-- Process Stages Tooltip / Legend Strip -->
+      <div class="process-legend-strip">
+        <span class="legend-dot active"></span>
+        <span class="legend-text">1. Inquiry &rarr; 2. Requirements &rarr; 3. Quote &rarr; 4. Confirmation &rarr; 5. Design &rarr; 6. Sourcing &rarr; 7. Production &rarr; 8. Inspection &rarr; 9. Packaging &rarr; 10. Delivery</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. BOX ARCHITECTURES CATALOG -->
+  <section id="catalog-section" class="catalog-section">
+    <div class="section-container">
+      <div class="section-header-block">
+        <div class="graffiti-stamp">SIGNATURE BUILDS</div>
+        <h2 class="section-title">Four Core Box Architectures</h2>
+        <p class="section-subtitle">Engineered for rigorous shipping protection, tactile luxury, and high-impact brand unboxing.</p>
+      </div>
+
+      <div class="catalog-grid">
+        <!-- Architecture 1: Corrugated Easy-Open Mailers -->
+        <article class="box-card double-bezel">
+          <div class="card-badge-row">
+            <span class="card-chip">E-Commerce Benchmark</span>
+            <span class="card-chip secondary">FSC Certified</span>
+          </div>
+          <div class="card-media-wrapper">
+            <img src="Images/Smart Functional Packaging with Easy-Open Design.jpg" alt="Smart functional corrugated mailer with zipper tear-strip" class="card-image" loading="lazy">
+            <div class="card-media-overlay">
+              <span class="overlay-tag">Tear-Strip Zipper</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-heading">Corrugated E-Commerce Mailers</h3>
+            <p class="card-description">Engineered with a zipper tear-strip for effortless opening, plus peel-and-seal adhesive for instant customer returns. Crash-lock base assembles in under two seconds.</p>
+            <div class="specs-pill-cloud">
+              <span class="spec-pill">E-Flute / B-Flute</span>
+              <span class="spec-pill">32–44 ECT Rating</span>
+              <span class="spec-pill">Peel &amp; Seal Adhesive</span>
+              <span class="spec-pill">100% Recyclable</span>
+            </div>
+            <div class="card-footer-action">
+              <button type="button" class="select-box-btn" data-style="Corrugated Mailer">Configure This Box &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Architecture 2: Luxury Rigid Drawer Boxes -->
+        <article class="box-card double-bezel">
+          <div class="card-badge-row">
+            <span class="card-chip luxury">Luxury &amp; Gifting</span>
+            <span class="card-chip secondary">1800 GSM Greyboard</span>
+          </div>
+          <div class="card-media-wrapper">
+            <img src="Images/Hinged Lid promotional box with Sliding Panel.jpg" alt="Matte black luxury rigid sliding panel box with velvet foam tray" class="card-image" loading="lazy">
+            <div class="card-media-overlay">
+              <span class="overlay-tag">Soft-Touch Velvet</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-heading">Luxury Rigid Setup &amp; Drawer Boxes</h3>
+            <p class="card-description">Hand-wrapped heavy-gauge greyboard cloaked in matte black soft-touch velvet laminate. Features precision sliding panel action, ribbon pull tab, and custom-molded EVA foam inserts.</p>
+            <div class="specs-pill-cloud">
+              <span class="spec-pill">1200–1800 GSM Core</span>
+              <span class="spec-pill">Debossed / Foil Stamp</span>
+              <span class="spec-pill">Velvet EVA Tray</span>
+              <span class="spec-pill">Magnetic or Drawer</span>
+            </div>
+            <div class="card-footer-action">
+              <button type="button" class="select-box-btn" data-style="Rigid Setup Box">Configure This Box &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Architecture 3: Multi-Compartment & Insert Cartons -->
+        <article class="box-card double-bezel">
+          <div class="card-badge-row">
+            <span class="card-chip">Multi-SKU &amp; Apothecary</span>
+            <span class="card-chip secondary">Anti-Rattle</span>
+          </div>
+          <div class="card-media-wrapper">
+            <img src="Images/102527329006628207.jpg" alt="BLNCD Naturals multi-item insert box with partition dividers" class="card-image" loading="lazy">
+            <div class="card-media-overlay">
+              <span class="overlay-tag">Precision Partitions</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-heading">Precision Insert &amp; Partition Cartons</h3>
+            <p class="card-description">Laser-cut fluted internal partitions engineered to stabilize multi-item product routines. Perfect for cosmetic tinctures, apothecary jars, and delicate wellness bottles during bumpy transit.</p>
+            <div class="specs-pill-cloud">
+              <span class="spec-pill">Custom Die-Cut Inserts</span>
+              <span class="spec-pill">Drop-Tested Protection</span>
+              <span class="spec-pill">Natural Kraft / White SBS</span>
+              <span class="spec-pill">Zero Bottle Clash</span>
+            </div>
+            <div class="card-footer-action">
+              <button type="button" class="select-box-btn" data-style="Partition Box">Configure This Box &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Architecture 4: Interior-Printed Unboxing Cartons -->
+        <article class="box-card double-bezel">
+          <div class="card-badge-row">
+            <span class="card-chip viral">Viral Unboxing</span>
+            <span class="card-chip secondary">Dual-Sided Litho</span>
+          </div>
+          <div class="card-media-wrapper">
+            <img src="Images/439663982375255194.jpg" alt="Allbirds style interior-printed lid unboxing carton" class="card-image" loading="lazy">
+            <div class="card-media-overlay">
+              <span class="overlay-tag">Double-Sided CMYK</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-heading">Interior-Printed Unboxing Cartons</h3>
+            <p class="card-description">Clean, understated natural exterior that conceals an explosion of vibrant brand artwork on the interior lid. Delivers an unforgettable, social-shareable first unboxing impression.</p>
+            <div class="specs-pill-cloud">
+              <span class="spec-pill">Full-Bleed Interior CMYK</span>
+              <span class="spec-pill">Water-Based Eco Inks</span>
+              <span class="spec-pill">Soy-Based Pigments</span>
+              <span class="spec-pill">Instagrammable Reveal</span>
+            </div>
+            <div class="card-footer-action">
+              <button type="button" class="select-box-btn" data-style="Interior-Printed Mailer">Configure This Box &rarr;</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. MATERIALS & CAPABILITIES MATRIX -->
+  <section id="materials-section" class="materials-section">
+    <div class="section-container">
+      <div class="section-header-block">
+        <div class="graffiti-stamp">TECHNICAL SPECIFICATIONS</div>
+        <h2 class="section-title">Materials, Fluting &amp; Embellishments</h2>
+        <p class="section-subtitle">Tailored industrial substrates designed for structural integrity and tactile brand differentiation.</p>
+      </div>
+
+      <!-- Bento Capabilities Matrix -->
+      <div class="bento-matrix-grid">
+        <!-- Substrates Bento Card -->
+        <div class="bento-card double-bezel">
+          <div class="bento-icon">&#9638;</div>
+          <h3 class="bento-title">Substrates &amp; Board Stock</h3>
+          <p class="bento-desc">Sourced exclusively from certified mills with traceable chain-of-custody.</p>
+          <ul class="bento-list">
+            <li><strong>Virgin Kraft:</strong> Maximum tear resistance &amp; rich earthy aesthetic</li>
+            <li><strong>Bleached White SBS:</strong> 94+ brightness for ultra-vivid CMYK printing</li>
+            <li><strong>Recycled Testliner:</strong> 100% post-consumer sustainable corrugated</li>
+            <li><strong>Rigid Greyboard:</strong> High-density 1200–1800 GSM structural core</li>
+          </ul>
+        </div>
+
+        <!-- Fluting Options Bento Card -->
+        <div class="bento-card double-bezel">
+          <div class="bento-icon">&#8776;</div>
+          <h3 class="bento-title">Fluting Architecture</h3>
+          <p class="bento-desc">Calibrated fluting thickness matching your product weight and transit profile.</p>
+          <ul class="bento-list">
+            <li><strong>E-Flute (1.5mm):</strong> Tight wave density; ideal for pristine litho printing</li>
+            <li><strong>B-Flute (3.0mm):</strong> High puncture resistance; standard for D2C parcel shipping</li>
+            <li><strong>C-Flute (4.0mm):</strong> Superior stacking compression for warehouse logistics</li>
+            <li><strong>BC-Flute (Double Wall 6.5mm):</strong> Heavy freight, electronics &amp; machinery</li>
+          </ul>
+        </div>
+
+        <!-- Finishes & Effects Bento Card -->
+        <div class="bento-card double-bezel">
+          <div class="bento-icon">&#10022;</div>
+          <h3 class="bento-title">Finishes &amp; Embellishments</h3>
+          <p class="bento-desc">Specialty artisanal treatments applied directly on high-speed press runs.</p>
+          <ul class="bento-list">
+            <li><strong>Soft-Touch Velvet:</strong> Luxurious silky tactile coating with zero glare</li>
+            <li><strong>High-Gloss Spot UV:</strong> High-contrast mirror finish on key logos and motifs</li>
+            <li><strong>Hot Foil Stamping:</strong> Metallic gold, silver, rose gold, and holographic foils</li>
+            <li><strong>Blind Deboss / Emboss:</strong> Dramatic tactile depth without ink bleed</li>
+          </ul>
+        </div>
+
+        <!-- Production SLA & Metrics Bento Card -->
+        <div class="bento-card double-bezel highlight-bento">
+          <div class="bento-icon">&#9874;</div>
+          <h3 class="bento-title">Factory SLA &amp; Output Capacity</h3>
+          <div class="sla-metrics-grid">
+            <div class="sla-metric-item">
+              <span class="sla-number">50,000+</span>
+              <span class="sla-label">Daily Box Capacity</span>
+            </div>
+            <div class="sla-metric-item">
+              <span class="sla-number">10–15</span>
+              <span class="sla-label">Days Standard SLA</span>
+            </div>
+            <div class="sla-metric-item">
+              <span class="sla-number">5–7</span>
+              <span class="sla-label">Days Rush SLA</span>
+            </div>
+            <div class="sla-metric-item">
+              <span class="sla-number">500</span>
+              <span class="sla-label">Units Accessible MOQ</span>
+            </div>
+          </div>
+          <p class="sla-footnote">ISO 9001:2015 certified quality controls with 100% pre-dispatch drop-test auditing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. INDUSTRIES WE SERVE -->
+  <section id="industries-section" class="industries-section">
+    <div class="section-container">
+      <div class="section-header-block">
+        <div class="graffiti-stamp">SECTOR MASTERY</div>
+        <h2 class="section-title">Industries Powered by Dimante</h2>
+        <p class="section-subtitle">Custom packaging architectures designed for unique supply-chain regulations and buyer expectations.</p>
+      </div>
+
+      <div class="industries-bento-grid">
+        <div class="industry-tile double-bezel">
+          <span class="industry-tag">High Growth</span>
+          <h3 class="industry-name">D2C &amp; E-Commerce</h3>
+          <p class="industry-text">Fast-assembly crash-lock mailers, custom printed tissue paper, and tamper-evident tear seals that turn every porch delivery into a viral Instagram moment.</p>
+          <span class="industry-accent-badge">Fast-Fold Base</span>
+        </div>
+
+        <div class="industry-tile double-bezel">
+          <span class="industry-tag">Prestige</span>
+          <h3 class="industry-name">Beauty, Skincare &amp; Fragrance</h3>
+          <p class="industry-text">Heavy rigid setup boxes with custom velvet EVA foam bottle wells, metallic hot-stamped branding, and smudge-resistant soft-touch coatings.</p>
+          <span class="industry-accent-badge">Velvet Inserts</span>
+        </div>
+
+        <div class="industry-tile double-bezel">
+          <span class="industry-tag">Certified</span>
+          <h3 class="industry-name">Food, Bakery &amp; Specialty F&amp;B</h3>
+          <p class="industry-text">Grease-resistant, FDA-compliant food-grade folding cartons and bakery boxes engineered to preserve thermal freshness and structural geometry.</p>
+          <span class="industry-accent-badge">FDA Food-Grade</span>
+        </div>
+
+        <div class="industry-tile double-bezel">
+          <span class="industry-tag">High Protection</span>
+          <h3 class="industry-name">Consumer Electronics &amp; Hardware</h3>
+          <p class="industry-text">Drop-tested corrugated shippers with anti-static shielding, molded pulp suspension trays, and reinforced corners to safeguard high-value circuitry.</p>
+          <span class="industry-accent-badge">Drop-Tested</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. INTERACTIVE BOX CONFIGURATOR & INSTANT ESTIMATOR -->
+  <section id="configurator-section" class="configurator-section">
+    <div class="section-container">
+      <div class="section-header-block">
+        <div class="graffiti-stamp">INSTANT SPECIFICATION ENGINE</div>
+        <h2 class="section-title">Interactive Box Configurator</h2>
+        <p class="section-subtitle">Design your custom packaging dieline with real-time 3D isometric &amp; flat CAD dieline visualization, instant volume calculations, and factory-direct pricing.</p>
+      </div>
+
+      <!-- Quick Industry Presets -->
+      <div class="preset-bar-wrapper">
+        <span class="preset-label">Quick Industry Presets:</span>
+        <div class="preset-pills-row">
+          <button type="button" class="preset-pill" data-style="Corrugated Mailer" data-l="12" data-w="9" data-d="3" data-material="Natural Kraft" data-finish="Natural Eco">👕 T-Shirt Mailer (12&times;9&times;3")</button>
+          <button type="button" class="preset-pill" data-style="Partition Box" data-l="8" data-w="6" data-d="2.5" data-material="Bleached White SBS" data-finish="Matte Aqueous">🧴 Cosmetic Jar Kit (8&times;6&times;2.5")</button>
+          <button type="button" class="preset-pill" data-style="Corrugated Mailer" data-l="14" data-w="10" data-d="5" data-material="Natural Kraft" data-finish="Natural Eco">👟 Shoe Box (14&times;10&times;5")</button>
+          <button type="button" class="preset-pill" data-style="Rigid Setup Box" data-l="6" data-w="6" data-d="4" data-material="Rigid Greyboard" data-finish="Soft-Touch Velvet">🎁 Luxury Perfume Drawer (6&times;6&times;4")</button>
+          <button type="button" class="preset-pill" data-style="Folding Carton" data-l="5" data-w="4" data-d="8" data-material="Premium Coated" data-finish="Gold Foil + Spot UV">☕ Artisan Coffee / Tea (5&times;4&times;8")</button>
+        </div>
+      </div>
+
+      <div class="configurator-wrapper double-bezel">
+        <!-- Interactive Controls (Left Column) -->
+        <div class="config-controls-pane">
+          
+          <!-- Step 1: Box Architecture -->
+          <div class="config-step-block">
+            <div class="step-header-row">
+              <span class="step-num-pill">STEP 1</span>
+              <span class="step-hint">Select Core Geometry</span>
+            </div>
+            <label class="step-label">Box Architecture</label>
+            <div class="style-button-grid" role="radiogroup" aria-label="Box Style Selection">
+              <button type="button" class="style-btn active" data-style="Corrugated Mailer">
+                <span class="style-icon">&#9638;</span>
+                <span class="style-name">Corrugated Mailer</span>
+                <span class="style-sub">Tear-strip e-commerce</span>
+              </button>
+              <button type="button" class="style-btn" data-style="Rigid Setup Box">
+                <span class="style-icon">&#9645;</span>
+                <span class="style-name">Rigid Setup Box</span>
+                <span class="style-sub">Luxury sliding drawer</span>
+              </button>
+              <button type="button" class="style-btn" data-style="Partition Box">
+                <span class="style-icon">&#8862;</span>
+                <span class="style-name">Partition Carton</span>
+                <span class="style-sub">Multi-item insert cavities</span>
+              </button>
+              <button type="button" class="style-btn" data-style="Folding Carton">
+                <span class="style-icon">&#9646;</span>
+                <span class="style-name">Folding Carton</span>
+                <span class="style-sub">Lightweight retail SBS</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Internal Dimensions with Sliders and Number Inputs -->
+          <div class="config-step-block">
+            <div class="step-header-row">
+              <span class="step-num-pill">STEP 2</span>
+              <span class="step-hint">Internal Usable Space</span>
+            </div>
+            <div class="dim-label-row">
+              <label class="step-label">Dimensions</label>
+              <div class="unit-toggle-group">
+                <button type="button" class="unit-btn active" data-unit="in">Inches (in)</button>
+                <button type="button" class="unit-btn" data-unit="cm">Centimeters (cm)</button>
+              </div>
+            </div>
+            <div class="dimension-inputs-grid">
+              <div class="dim-input-col">
+                <div class="dim-title-row">
+                  <label for="dim-length">Length (L)</label>
+                  <span class="dim-value-display" id="disp-l">10 in</span>
+                </div>
+                <input type="range" id="slider-length" min="3" max="36" step="0.5" value="10" class="dim-slider" aria-label="Length Slider">
+                <input type="number" id="dim-length" value="10" min="2" max="48" step="0.5" class="dim-input">
+              </div>
+              <div class="dim-input-col">
+                <div class="dim-title-row">
+                  <label for="dim-width">Width (W)</label>
+                  <span class="dim-value-display" id="disp-w">7 in</span>
+                </div>
+                <input type="range" id="slider-width" min="3" max="30" step="0.5" value="7" class="dim-slider" aria-label="Width Slider">
+                <input type="number" id="dim-width" value="7" min="2" max="48" step="0.5" class="dim-input">
+              </div>
+              <div class="dim-input-col">
+                <div class="dim-title-row">
+                  <label for="dim-depth">Depth (D)</label>
+                  <span class="dim-value-display" id="disp-d">3 in</span>
+                </div>
+                <input type="range" id="slider-depth" min="1" max="24" step="0.5" value="3" class="dim-slider" aria-label="Depth Slider">
+                <input type="number" id="dim-depth" value="3" min="1" max="36" step="0.5" class="dim-input">
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3: Material & Finish -->
+          <div class="config-step-block">
+            <div class="step-header-row">
+              <span class="step-num-pill">STEP 3</span>
+              <span class="step-hint">Board &amp; Surface Treatment</span>
+            </div>
+            <label class="step-label">Substrate &amp; Surface Finish</label>
+            <div class="finish-button-grid" role="radiogroup" aria-label="Material Finish Selection">
+              <button type="button" class="finish-btn active" data-material="Natural Kraft" data-finish="Natural Eco">
+                <span class="finish-bullet kraft"></span>
+                <span class="finish-title">Natural Eco Kraft</span>
+              </button>
+              <button type="button" class="finish-btn" data-material="Bleached White SBS" data-finish="Matte Aqueous">
+                <span class="finish-bullet white"></span>
+                <span class="finish-title">Bleached White + Matte</span>
+              </button>
+              <button type="button" class="finish-btn" data-material="Rigid Greyboard" data-finish="Soft-Touch Velvet">
+                <span class="finish-bullet black"></span>
+                <span class="finish-title">Soft-Touch Velvet Black</span>
+              </button>
+              <button type="button" class="finish-btn" data-material="Premium Coated" data-finish="Gold Foil + Spot UV">
+                <span class="finish-bullet gold"></span>
+                <span class="finish-title">Gold Foil + Spot UV</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 4: Printing Mode -->
+          <div class="config-step-block">
+            <div class="step-header-row">
+              <span class="step-num-pill">STEP 4</span>
+              <span class="step-hint">Graphics &amp; Ink Application</span>
+            </div>
+            <label class="step-label">Printing Mode</label>
+            <div class="printing-button-grid" role="radiogroup" aria-label="Printing Selection">
+              <button type="button" class="print-btn active" data-print="Plain / No Print">
+                <span class="print-name">Plain / Unprinted</span>
+                <span class="print-sub">Raw Sustainable Kraft</span>
+              </button>
+              <button type="button" class="print-btn" data-print="1-Color Flexo">
+                <span class="print-name">1-Color Flexo</span>
+                <span class="print-sub">Cost-effective line art</span>
+              </button>
+              <button type="button" class="print-btn" data-print="Full CMYK Exterior">
+                <span class="print-name">Full CMYK Exterior</span>
+                <span class="print-sub">High-vibrancy artwork</span>
+              </button>
+              <button type="button" class="print-btn" data-print="Double-Sided CMYK">
+                <span class="print-name">Double-Sided (Inside &amp; Out)</span>
+                <span class="print-sub">Viral unboxing experience</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 5: Quantity Tier & Speed -->
+          <div class="config-step-block">
+            <div class="step-header-row">
+              <span class="step-num-pill">STEP 5</span>
+              <span class="step-hint">Batch Scale &amp; Dispatch</span>
+            </div>
+            <label class="step-label">Production Order Tier</label>
+            <div class="qty-tier-grid" role="radiogroup" aria-label="Quantity Selection">
+              <button type="button" class="qty-btn" data-qty="500">
+                <span class="qty-num">500</span>
+                <span class="qty-tag">Starter MOQ</span>
+              </button>
+              <button type="button" class="qty-btn active" data-qty="1000">
+                <span class="qty-num">1,000</span>
+                <span class="qty-tag">Save 15%</span>
+              </button>
+              <button type="button" class="qty-btn" data-qty="2500">
+                <span class="qty-num">2,500</span>
+                <span class="qty-tag">Save 25%</span>
+              </button>
+              <button type="button" class="qty-btn" data-qty="5000">
+                <span class="qty-num">5,000</span>
+                <span class="qty-tag">Save 38%</span>
+              </button>
+              <button type="button" class="qty-btn" data-qty="10000">
+                <span class="qty-num">10,000+</span>
+                <span class="qty-tag">Save 48%</span>
+              </button>
+            </div>
+
+            <!-- Rush Speed Checkbox Toggle -->
+            <div class="rush-speed-toggle-row">
+              <label class="rush-toggle-label">
+                <input type="checkbox" id="toggle-rush-production" class="rush-checkbox">
+                <span class="rush-custom-box"></span>
+                <span class="rush-text">
+                  <strong>⚡ Rush Production Priority:</strong> Dispatch in 5–7 Business Days (+20% expedite fee)
+                </span>
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Live Visual Canvas & Calculation Summary (Right Column) -->
+        <div class="config-summary-card">
+          
+          <!-- Visual Box Canvas Container -->
+          <div class="box-canvas-container double-bezel">
+            <div class="canvas-header-bar">
+              <div class="canvas-view-toggle">
+                <button type="button" id="btn-view-3d" class="canvas-mode-btn active" data-view="3d">3D Isometric View</button>
+                <button type="button" id="btn-view-2d" class="canvas-mode-btn" data-view="2d">2D Flat Dieline</button>
+              </div>
+              <span class="canvas-scale-tag" id="canvas-status-tag">Real-Time Scaled</span>
+            </div>
+
+            <div class="canvas-render-viewport" id="canvas-render-viewport">
+              <svg id="interactive-box-svg" viewBox="0 0 380 240" class="interactive-box-svg" xmlns="http://www.w3.org/2000/svg">
+                <!-- Dynamically populated by animations.js -->
+              </svg>
+            </div>
+
+            <div class="canvas-footer-bar">
+              <button type="button" id="btn-download-dieline" class="btn-dieline-download">
+                <span>&#8681; Download Dieline (SVG)</span>
+              </button>
+              <span class="dieline-spec-meta" id="dieline-meta-text">Ready for Adobe Illustrator &amp; CAD</span>
+            </div>
+          </div>
+
+          <!-- Summary Data Table -->
+          <div class="summary-details-pane">
+            <div class="summary-header-row">
+              <div>
+                <div class="summary-ink-badge">ENGINEERING SPECIFICATION</div>
+                <h3 class="summary-box-title" id="summary-style-title">Corrugated E-Commerce Mailer</h3>
+              </div>
+              <div class="summary-ref-pill" id="summary-ref-pill">REF: DIM-2026-8492</div>
+            </div>
+            
+            <div class="summary-metric-table">
+              <div class="metric-row">
+                <span class="metric-key">Internal Dimensions:</span>
+                <strong class="metric-val" id="summary-dimensions">10" &times; 7" &times; 3"</strong>
+              </div>
+              <div class="metric-row">
+                <span class="metric-key">Calculated Internal Volume:</span>
+                <strong class="metric-val" id="summary-volume">210.0 cu in</strong>
+              </div>
+              <div class="metric-row">
+                <span class="metric-key">Recommended Flute / Substrate:</span>
+                <strong class="metric-val" id="summary-flute">E-Flute (32 ECT Kraft)</strong>
+              </div>
+              <div class="metric-row">
+                <span class="metric-key">Selected Board &amp; Finish:</span>
+                <strong class="metric-val" id="summary-finish">Natural Eco Kraft</strong>
+              </div>
+              <div class="metric-row">
+                <span class="metric-key">Printing Graphics:</span>
+                <strong class="metric-val" id="summary-print">Plain / Unprinted</strong>
+              </div>
+              <div class="metric-row">
+                <span class="metric-key">Production Batch Tier:</span>
+                <strong class="metric-val" id="summary-qty">1,000 units</strong>
+              </div>
+              <div class="metric-row">
+                <span class="metric-key">Est. Unit &amp; Total Weight:</span>
+                <strong class="metric-val" id="summary-weight">~0.32 lbs / box &bull; 320 lbs Total</strong>
+              </div>
+              <div class="metric-row">
+                <span class="metric-key">Palletization Logistics:</span>
+                <strong class="metric-val" id="summary-pallet">~480 boxes / GMA Pallet (1 Pallet)</strong>
+              </div>
+              <div class="metric-row highlight">
+                <span class="metric-key">Factory Turnaround SLA:</span>
+                <strong class="metric-val" id="summary-lead-time">10–12 Business Days</strong>
+              </div>
+              <div class="metric-row price-row">
+                <span class="metric-key">Est. Unit Price Range:</span>
+                <strong class="metric-val price-val" id="summary-unit-price">$1.35 – $1.75 / unit</strong>
+              </div>
+              <div class="metric-row total-row">
+                <span class="metric-key">Est. Total Batch Range:</span>
+                <strong class="metric-val total-val" id="summary-total-price">$1,350 – $1,750</strong>
+              </div>
+            </div>
+
+            <div class="summary-actions-block">
+              <button type="button" id="btn-lock-quote" class="btn-lock-quote">
+                <span>Lock In Dieline &amp; Request Official Quote</span>
+                <span class="btn-arrow">&rarr;</span>
+              </button>
+              <p class="summary-disclaimer">*Instant quote lock reserves machine capacity for 72 hours. Complimentary CAD dieline review included.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CALL TO ACTION: WAGGING REX & DUAL CURSOR-TRACKING EYEBALLS -->
+  <section id="actions-section" class="actions-section">
+    <div class="cta-inner">
+      <div class="cta-badge">LET'S BUILD SOMETHING RIGID</div>
+      <h2 class="cta-main-title">Ready to Roll Out Your Packaging?</h2>
+      <p class="cta-subtext">Tell us about your next packaging run. We reply with exact dielines, material swatches, and turnaround dates within 24 hours.</p>
+
+      <div class="cta-buttons-wrap">
+        <button type="button" id="open-inquiry-modal-btn" class="cta-button-1">
+          <span class="get-in-touch-link">Request Official Quote</span>
+        </button>
+        <a href="https://wa.me/?text=Hi%20Dimante%20Packaging%2C%20I%20would%20like%20to%20request%20a%20packaging%20quote." target="_blank" rel="noopener noreferrer" class="cta-button-secondary">
+          <span>Fast-Track WhatsApp</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Wagging Rex Container with Dual Real-time Cursor-Tracking Eyes -->
+    <div id="wagging-rex-box" class="wagging-rex-wrapper">
+      <div id="eye-left" class="eyeball">
+        <div class="pupil"></div>
+      </div>
+      <div id="eye-right" class="eyeball second-eye">
+        <div class="pupil"></div>
+      </div>
+      <div id="lottie-wagging-rex" class="wagging-rex"></div>
+    </div>
+  </section>
+
+  <!-- INQUIRY / QUOTE MODAL DIALOG -->
+  <div id="inquiry-modal" class="inquiry-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-card double-bezel">
+      <button type="button" id="close-modal-btn" class="modal-close-btn" aria-label="Close quote modal">&times;</button>
+      
+      <div class="modal-header">
+        <div class="modal-badge">DIMANTE PRODUCTION DESK</div>
+        <h3 id="modal-title" class="modal-title">Request Official Factory Quote</h3>
+        <p class="modal-desc">Submit your configuration to our engineering team. We review tolerances, CAD dielines, and bulk pricing immediately.</p>
+      </div>
+
+      <form id="inquiry-form" class="inquiry-form">
+        <!-- Pre-filled configuration chips -->
+        <div class="modal-spec-preview">
+          <span class="spec-tag" id="modal-spec-style">Corrugated Mailer</span>
+          <span class="spec-tag" id="modal-spec-dims">10" &times; 7" &times; 3"</span>
+          <span class="spec-tag" id="modal-spec-qty">1,000 units</span>
+        </div>
+
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="contact-name">Full Name *</label>
+            <input type="text" id="contact-name" required placeholder="Alex Mercer" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Work Email *</label>
+            <input type="email" id="contact-email" required placeholder="alex@brand.com" class="form-input">
+          </div>
+        </div>
+
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="contact-company">Brand / Company *</label>
+            <input type="text" id="contact-company" required placeholder="Brand Co." class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="contact-phone">Phone / WhatsApp</label>
+            <input type="tel" id="contact-phone" placeholder="+1 (555) 000-0000" class="form-input">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-notes">Project Notes or Specific Packaging Requirements</label>
+          <textarea id="contact-notes" rows="3" placeholder="Include artwork status, target delivery date, or special insert needs..." class="form-input"></textarea>
+        </div>
+
+        <div class="form-submit-row">
+          <button type="submit" class="modal-submit-btn">
+            <span>Send Production Inquiry &rarr;</span>
+          </button>
+        </div>
+
+        <div id="form-success-banner" class="form-success-banner" hidden>
+          <div class="stamp-received">★ SPECIFICATION LOCKED &bull; REF #<span id="voucher-ref-code">DIM-2026-8492</span></div>
+          <p class="voucher-lead">Your custom dieline and manufacturing parameters have been logged into the Dimante production queue.</p>
+          
+          <div class="voucher-card double-bezel">
+            <div class="voucher-row"><span>Architecture:</span><strong id="v-style">Corrugated Mailer</strong></div>
+            <div class="voucher-row"><span>Dimensions:</span><strong id="v-dims">10" &times; 7" &times; 3"</strong></div>
+            <div class="voucher-row"><span>Material &amp; Finish:</span><strong id="v-finish">Natural Kraft (Natural Eco)</strong></div>
+            <div class="voucher-row"><span>Printing:</span><strong id="v-print">Plain / Unprinted</strong></div>
+            <div class="voucher-row"><span>Quantity Tier:</span><strong id="v-qty">1,000 units</strong></div>
+            <div class="voucher-row"><span>Estimated Unit Cost:</span><strong id="v-unit-price">$1.35 – $1.75 / unit</strong></div>
+            <div class="voucher-row total-highlight"><span>Estimated Total:</span><strong id="v-total-price">$1,350 – $1,750</strong></div>
+          </div>
+
+          <div class="voucher-actions-row">
+            <button type="button" id="btn-print-voucher" class="btn-voucher-action print-btn">🖨 Print / Save Voucher</button>
+            <button type="button" id="btn-copy-voucher" class="btn-voucher-action copy-btn">📋 Copy Spec Details</button>
+          </div>
+          <div id="copy-confirm-msg" class="copy-confirm-msg" hidden>✓ Copied specification details to clipboard!</div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 9. HAND-CRAFTED FOOTER -->
+  <footer class="dimante-footer">
+    <div class="footer-inner">
+      <div class="footer-top-row">
+        <div class="footer-brand-col">
+          <div class="footer-logo">DIMANTE</div>
+          <p class="footer-tagline">Custom Packaging Manufacturing &amp; Structural Box Architecture. Built with heavy paperboard and zero nonsense.</p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#hero-section">Hero Overview</a></li>
+            <li><a href="#skills-section">SY Express Process</a></li>
+            <li><a href="#catalog-section">Box Architectures</a></li>
+            <li><a href="#materials-section">Specifications</a></li>
+            <li><a href="#configurator-section">Instant Configurator</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-cert-col">
+          <h4>Certifications &amp; Standards</h4>
+          <ul class="cert-list">
+            <li>&#10003; ISO 9001:2015 Quality Management</li>
+            <li>&#10003; FSC-Certified Sustainable Forestry</li>
+            <li>&#10003; 100% Recyclable Corrugated Cardboard</li>
+            <li>&#10003; FDA Compliant Food-Grade Coatings</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div class="footer-copy">&copy; 2026 Dimante Packaging Manufacturing. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="#hero-section">Back to Top &uarr;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Animation Engine Script -->
+  <script src="animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Python automation & test scripts
+*.py
+__pycache__/
+
+# Test screenshots, comparisons, and render artifacts
+*.png
+test_*.*
+orig_*.*
+loco_*.*
+
+# Local test fonts (production uses Google Fonts CDN)
+*.ttf
+
+# System and tooling
+.vercel
+node_modules
