@@ -14,3 +14,10 @@ loco_*.*
 # System and tooling
 .vercel
 node_modules
+
+.vercel
+
+node_modules/
+.venv/
+venv/
+.env
